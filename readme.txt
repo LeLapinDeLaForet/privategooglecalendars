@@ -68,6 +68,9 @@ wordpress/wp-content/plugins/private-google-calendars/lib/fullcalendar4/timegrid
 
 == Changelog ==
 
+= 20201003 =
+* Add possibility to use source information in event link in place of event link URL to Google Agenda
+
 = 20200902 =
 * Fixed security bug where you could display unselected private calendars
 * Now possible to use private and public calendars at the same time
