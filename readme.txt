@@ -76,6 +76,9 @@ wordpress/wp-content/plugins/private-google-calendars/lib/fullcalendar4/timegrid
 
 == Changelog ==
 
+= 20201013 =
+* Add possibility to use proper JavaScript callback in place of event link URL to Google Agenda 
+
 = 20201003 =
 * Add possibility to use source information in event link in place of event link URL to Google Agenda
 

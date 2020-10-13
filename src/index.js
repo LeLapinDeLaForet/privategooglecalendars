@@ -61,7 +61,8 @@ registerBlockType('pgc-plugin/calendar', {
                 eventcreator: false,
                 eventcalendarname: false,
                 eventsourcelink: false,
-                eventlinktargetblank: false
+                eventlinktargetblank: true,
+                eventlinkcallback: false
             }
         },
         fullcalendarconfig: {
@@ -167,6 +168,7 @@ registerBlockType('pgc-plugin/calendar', {
             ["eventcalendarname", window.pgc_trans.eventcalendarname],
             ["eventsourcelink", window.pgc_trans.eventsourcelink],
             ["eventlinktargetblank", window.pgc_trans.eventlinktargetblank],
+            ["eventlinkcallback", window.pgc_trans.eventlinkcallback],
         ].map((item) => {
             return <CheckboxControl className="pgc-sidebar-row" onChange={onCalendarConfigChange.bind(item[0])}
                 label={item[1]} checked={config[item[0]]} />;
@@ -342,7 +344,8 @@ registerBlockType('pgc-plugin/calendar', {
                         eventcreator: false,
                         eventcalendarname: false,
                         eventsourcelink: false,
-                        eventlinktargetblank: false
+                        eventlinktargetblank: true,
+                        eventlinkcallback: false
                     }
                 },
                 fullcalendarconfig: {
@@ -443,7 +446,8 @@ registerBlockType('pgc-plugin/calendar', {
                         eventcreator: false,
                         eventcalendarname: false,
                         eventsourcelink: false,
-                        eventlinktargetblank: false
+                        eventlinktargetblank: true,
+                        eventlinkcallback: false
                     }
                 },
                 fullcalendarconfig: {
